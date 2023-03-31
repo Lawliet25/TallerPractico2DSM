@@ -13,7 +13,7 @@ class PromedioActivity : AppCompatActivity() {
         setContentView(R.layout.activity_promedio)
         setTitle("Promedio de un estudiante")
     }
-    /** Menu creation and actions */
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_muestra, menu)
         return true
