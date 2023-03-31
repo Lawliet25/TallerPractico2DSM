@@ -70,7 +70,6 @@ class LoginActivity : AppCompatActivity() {
         emailTV = findViewById<EditText>(R.id.email)
         passwordTV = findViewById<EditText>(R.id.password)
         loginBtn = findViewById<Button>(R.id.login)
-        progressBar = findViewById<ProgressBar>(R.id.progressBar)
     }
 
 }
