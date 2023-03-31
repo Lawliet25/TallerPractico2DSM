@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858074044463",
+    "project_id": "tallerpractico2dsm",
+    "storage_bucket": "tallerpractico2dsm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858074044463:android:c2ee97c7219b666deaceda",
+        "android_client_info": {
+          "package_name": "com.example.tallerpractico2dsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858074044463-9l8pqaguikbpg3l5ho154ec8u92e9914.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAazfW8yP0ImrSYBwCr2u213XzWCROH1x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858074044463-9l8pqaguikbpg3l5ho154ec8u92e9914.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

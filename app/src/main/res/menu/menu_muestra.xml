@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu"
+        android:title="Menú inicial"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/opcion1"
+        android:title="Promedio de un estudiante"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/opcion2"
+        android:title="Calculadora salarial"
+        app:showAsAction="never"
+        />
+
+</menu>
