@@ -29,10 +29,10 @@ class AdaptadorSalario(private val context: Activity, var personas: List<Salario
         val formatoDecimal = DecimalFormat("0.00")
 
         tvNombre.text = "Nombre: " + personas[position].nombre
-        tvSalBase.text = "Salario base: " + personas[position].salBase
+        tvSalBase.text = "Salario base: $" + personas[position].salBase
         val resultado= (personas[position].salBase.toString().toDouble())-(personas[position].salBase.toString().toDouble()*0.03)-(personas[position].salBase.toString().toDouble()*0.04)-(personas[position].salBase.toString().toDouble()*0.05)
         val resultadoRedondeado = formatoDecimal.format(resultado)
-        tvSalNeto.text="Salario neto: " + resultadoRedondeado
+        tvSalNeto.text="Salario neto: $" + resultadoRedondeado
 
         return rowview
     }

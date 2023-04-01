@@ -12,6 +12,9 @@
         android:theme="@style/Theme.TallerPractico2DSM"
         tools:targetApi="31">
         <activity
+            android:name=".AddPromedioActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddSalarioActivity"
             android:exported="false" />
         <activity

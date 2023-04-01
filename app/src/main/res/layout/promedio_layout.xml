@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvNotaUno"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvNotaDos"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvNotaTres"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvNotaCuatro"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvNotaCinco"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvPromedio"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View style="@style/Divider"/>
+</LinearLayout>
